@@ -33,8 +33,11 @@ Visual Studio
 🚀 *How to Run*
 
 _1. Requirements_
+
 Visual Studio (with Windows Forms)
+
 MySQL Server & MySQL Workbench
+
 MySql.Data.dll (Connector/NET installed or referenced in project)
 
 _2. Setup_
@@ -44,17 +47,25 @@ git clone https://github.com/tubakhalil4/HospitalManagementSystem.git
 
 Create the database:
 Open MySQL Workbench and run:
+
 CREATE DATABASE HospitalDB;
+
 Manually create the required tables (Doctor, Patient, Appointment, Billing) or use SQL scripts if available.
+
 Update the connection string in your C# forms (typically something like):
+
 string connStr = "server=localhost;user id=root;password=yourpassword;database=HospitalDB;";
+
 Make sure MySql.Data.dll is referenced in your project.
 
 ---
 
-*👨‍🏫 Project Info*
+*👨‍🏫 Project Info*: 
+
  *Subject*: Visual Programming
+ 
  *Instructor*: Sir Jasim Shah
+ 
  *Semester Project*
 
  ---
